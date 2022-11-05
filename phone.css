@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*--------------------------------------this is css for media query firing max width 755px--------------------------------- */
+.nav{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.logo{
+    margin: 0px;
+    margin-top: 15px;
+}
+.menu{
+    margin: 0px;
+    visibility: hidden;
+    display: none;
+}
+.content{
+    padding: 0px;
+}
+.center{
+    padding: 5px;
+}
+.center h1{
+    font-size: 3rem;
+}
+.center h2{
+    font-size: 1.3rem;
+}
+/* ---------------------------------------css for media query firing ends---------------------------------------------- */

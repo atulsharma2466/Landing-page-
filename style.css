@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*---------------------------------------------preloader------------------------------------ */
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff url('preloader.gif') no-repeat center;
+    z-index: 999;
+
+}
+
+html {
+    scroll-behavior: smooth;
+} 
+/*---------------------------------------------header------------------------------------ */
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 1, 0.4)), url(./images/manchurian1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+}
+
+.nav {
+    /* border: 2px solid red; */
+    text-decoration-color: rgb(6, 0, 0);
+    border-radius: 1px;
+    background-color: rgba(1, 0, 0, 0.123);
+    display: flex;
+    /* line-height: 100px; */
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 7px 40px 0px black;
+    z-index: 10;
+    opacity: 10;
+    transition: ease-in-out 0.9s;
+}
+
+.nav:hover {
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    /* border: 2px solid red; */
+    margin-left: 25px;
+    
+    
+}
+
+.menu {
+    /* border: 2px solid red; */
+    margin-right: 25px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    line-height: 80px;
+}
+
+.menu ul li {
+    list-style: none;
+    /* border: 2px solid red; */
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    transition: ease 0.9s;
+}
+
+.menu ul li a:hover {
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+.content {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    /* border: 2px solid red; */
+    padding: 25px;
+}
+
+.center h1 {
+    color: whitesmoke;
+    font-size: 5rem;
+    text-align: center;
+    letter-spacing: 0 px;
+    word-spacing: 1px;
+    padding-bottom: 15px;
+    font-family: 'Red Rose', cursive;
+}
+
+.center h2 {
+    color: whitesmoke;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+    font-family: 'Red Rose', cursive;
+}
+
+.center span {
+    color: rgb(83 183 209);
+    /* text-shadow: 10px 10px 10px 10px blueviolet; */
+}
+
+.center p {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    /* margin-bottom: 25px; */
+    padding-bottom: 30px;
+    font-family: 'Red Rose', cursive;
+}
+
+.center a {
+    text-decoration: white;
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.9s;
+    width: 125px;
+    display: block;
+    margin: auto;
+}
+
+.center a:hover {
+    background-color: rgba(245, 245, 245, 0.692);
+    color: black;
+}
+/*---------------------------------------------header css ends------------------------------------ */
+/*---------------------------------------------about us------------------------------------ */
+#about_us {
+    width: 100%;
+    height: auto;
+    /* display: flex; */
+    margin-top: 115px;
+    /* background: linear-gradient(to right, #642b73, #c6426e); */
+    background-attachment: fixed;
+    /* border: 2px solid red; */
+}
+
+.h_1 {
+    /* border: 2px solid red; */
+    padding: 0%;
+    align-items: center;
+    justify-content: center;
+}
+
+.h_1 h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    text-decoration: underline rgb(0, 9, 11);
+    font-family: 'Black And White Picture', sans-serif;
+    letter-spacing: 2px;
+}
+
+.col_4 {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.box_4 {
+    width: 19rem;
+    height: 25rem;
+    /* display: flex; */
+    margin: 20px;
+    /* border: 2px solid red; */
+    box-shadow: 3px 3px 6px 0px #c3bdbd;
+    border-radius: 5px;
+    background: linear-gradient(230deg, #fbc0e5, #fffcdc);
+}
+
+.box_4 img {
+    /* border: 2px solid red; */
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding: 15px;
+}
+
+.box_4 .box_info {
+    /* border: 2px solid red; */
+    padding: 0px;
+
+
+}
+
+.box_info h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 15px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.box_info p {
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.box_info a {
+    text-decoration: none;
+    border: 2px solid rgb();
+    border: 2px solid rgb(83 183 209);
+    border-radius: 30px;
+    padding: 15px;
+    /* margin-top: 126px; */
+    /* margin: 25px 25px 25px 25px; */
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    color: rgb(83 183 209);
+    font-weight: bold;
+    transition: all 0.9s;
+}
+.box_info a:hover{
+    background-color:white;
+    color: black;
+}
+/*---------------------------------------------about us css ends------------------------------------ */
+
+/*---------------------------------------------special ------------------------------------ */
+#special {
+    width: 100%;
+    height: auto;
+    margin-top: 115px;
+    /* border: 2px solid red; */
+    /* background: linear-gradient(to right, #fc00ff, #00dbde); */
+
+}
+
+
+.special {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* border: 2px solid green; */
+    padding: 25px;
+    height: auto;
+    /* justify-content: space-evenly; */
+    /* background: linear-gradient(to right, #1e130c, #9a8478); */
+}
+
+
+
+
+
+.sp_info {
+    /* border: 2px solid; */
+    justify-content: center;
+}
+.sp_info .btn{
+    border: 2px solid rgb(83 183 209);
+    padding: 15px;
+    display: block;
+    width: 260px;
+    font-weight: bold;
+    margin: auto;
+    border-radius: 30px;
+    /* background-color: #FAD961; */
+/* background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%); */
+
+}
+
+.sp_info h2 {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 2rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.sp_info p {
+    text-align: center;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 5px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.sp_info a{
+    width: 95px;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: black;
+    transition: all 0.8s;
+}
+.sp_info a:hover{
+    background-color: whitesmoke;
+}
+/*---------------------------------------------special css ends------------------------------------ */
+
+/*---------------------------------------------how to order ------------------------------------ */
+#how_to_order{
+    width: 100%;
+    height: auto;
+    /* display: flex; */
+    margin-top: 115px;
+    /* background-color: #4158D0; */
+    /* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+
+    background-attachment: fixed;
+    /* border: 2px solid red; */
+}
+/*---------------------------------------------how to order css ends------------------------------------ */
+/*------------------------------------------products--------------------------------------- */
+#products {
+    width: 100%;
+    /* border: 2px solid; */
+    height: auto;
+    margin-top: 115px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 200px;
+    transition: ease-in 0.9s;
+}
+
+.box {
+    /* border: 2px solid red; */
+    margin: 15px;
+    border-radius: 6px;
+    background: #00000008;
+    box-shadow: 4px 5px 5px 0px #0000005e;
+    transition: all 0.3s;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+}
+
+/* .box .ca_img {} */
+
+.box .ca_img img {
+    width: 250px;
+    height: 170px;
+}
+
+/* .box .ca_name {} */
+
+.box .ca_name h2 {
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Zilla Slab', serif;
+}
+
+.box .ca_name h3 {
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Zilla Slab', serif;
+}
+/*---------------------------------------------products css ends------------------------------------ */
+/*---------------------------------------------footer------------------------------------ */
+#footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: black;
+    justify-content: space-evenly;
+}
+
+.a{
+    /* border: 2px solid red; */
+    width: 25%;
+    margin-top: 10px;
+}
+.a a{
+    text-decoration: none;
+}
+.a h2{
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+}
+.a p{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+.a i{
+    color: white;
+display: block;
+margin: auto;
+width: 35px;
+}
+.a address{
+    color:white;
+
+}
+/*---------------------------------------------footer css ends------------------------------------ */
+/*---------------------------------------------ends------------------------------------ */
+.end{
+    
+    color: white;
+    background-color: black;
+}
+.end p{
+    padding: 25px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+/*---------------------------------------------ends css ends------------------------------------ */
+/*---------------------------------------------cascading styling sheet ends------------------------------------ */
